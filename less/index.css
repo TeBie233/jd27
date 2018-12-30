@@ -1,0 +1,192 @@
+@import 'base.css';
+#header {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+}
+#header .inco-logo {
+  display: block;
+  width: 58px;
+  height: 26px;
+  margin: 10px 11px;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: 0 -108px;
+  background-size: 200px 200px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+#header .form {
+  flex: 1;
+  position: relative;
+}
+#header .form .search {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background: url(../images/sprites.png) no-repeat;
+  background-size: 200px 200px;
+  background-position: -60px -108px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+#header .form input {
+  width: 100%;
+  padding-left: 30px;
+  margin-top: 5px;
+  height: 35px;
+  border-radius: 17.5px;
+}
+#header .login {
+  display: block;
+  width: 50px;
+  height: 45px;
+  color: aliceblue;
+  text-align: center;
+  line-height: 45px;
+}
+#slide img {
+  width: 100vw;
+}
+#nav ul {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav li {
+  width: 25vw;
+  float: left;
+  text-align: center;
+}
+#nav li img {
+  width: 40px;
+  height: 40px;
+}
+#nav li p {
+  margin: 5px 0;
+}
+.shop {
+  background-color: #f6f6f6;
+  width: 100vw;
+  padding: 10px;
+}
+.shop .diannao {
+  background-color: #fff;
+  box-shadow: 0 0 1px black;
+}
+.shop .diannao .miaosha {
+  position: relative;
+}
+.shop .diannao .miaosha .seckill-icon img {
+  width: 20px;
+  height: 25px;
+  margin-left: 5px;
+}
+.shop .diannao .miaosha .seckill-miaosha {
+  height: 30px;
+  margin-left: 5px;
+  color: red;
+}
+.shop .diannao .miaosha .down-time {
+  display: inline-block;
+}
+.shop .diannao .miaosha .seckill-time {
+  line-height: 15px;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: black;
+  color: #f6f6f6;
+}
+.shop .diannao .miaosha .gengduo {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.shop .diannao ul {
+  display: flex;
+  background-color: #fff;
+}
+.shop .diannao ul li {
+  flex: 1;
+  text-align: center;
+}
+.shop .diannao ul li img {
+  width: 110px;
+  height: 110px;
+}
+.shop .diannao ul li ~ li {
+  border-left: solid 1px #cccccc;
+}
+.shop .diannao ul li p {
+  color: red;
+  font-size: 12px;
+}
+.shop .diannao ul li del {
+  color: #cccccc;
+  font-size: 12px;
+}
+.supermarket {
+  margin-top: 10px;
+  box-shadow: 0 0 1px ;
+}
+.supermarket h4 {
+  line-height: 30px;
+  position: relative;
+  padding-left: 30px;
+  border-bottom: 1px  solid #cccccc;
+  background-color: #fff;
+}
+.supermarket h4::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 14px;
+  left: 18px;
+  top: 8px;
+  background-color: #de181b;
+}
+.datu {
+  display: flex;
+}
+.datu > div {
+  flex: 1;
+  background-color: #fff;
+}
+.datu > div a {
+  display: block;
+}
+.datu > div a img {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+.footer ul {
+  display: flex;
+}
+.footer ul li {
+  flex: 1;
+}
+.footer ul li a {
+  display: block;
+  text-align: center;
+}
+.footer ul li img {
+  width: 65px;
+  height: 50px;
+}
+.ding {
+  margin-bottom: 50px;
+}
